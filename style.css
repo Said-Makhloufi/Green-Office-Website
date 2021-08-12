@@ -1,0 +1,88 @@
+
+@font-face{
+	font-family:'Oswald-Bold';
+	src:url('Maquette1/font/oswald/Oswald-Bold.ttf') ;
+}
+
+header{
+	background: #b8cb21;
+	height: 130px;
+	margin-top: -20px;
+	margin: auto ;
+	width: 800px;
+
+}
+body{
+	background-image: url(Maquette1/img/fond.png);
+}
+main {
+	background-color: white;
+	/*margin-right:350px ;
+	margin-left:350px  ;*/
+	background-color: white;
+	padding-top: 25px;
+	padding: 25px;
+	width: 750px;
+	margin: auto ;
+	
+	/*background-color: white;*/
+}
+
+footer p{
+	/*margin-right: 20px;
+	margin-left: 20px;*/
+	font-size: small;
+	width: 750px;
+	margin: auto
+}
+.image1{
+	float: left;
+}
+.image2{
+	float: left;
+
+}
+.image2{
+	height: 10em;
+	width: 20em;
+	margin-left:5px ;
+	margin-right: 5PX;
+}
+.image3{
+	height: 3em;
+	width: 3em;
+	margin: auto;
+	margin-left: 0:%;
+	display: flex;
+	margin-top: 30px;
+}
+
+
+.Menu li{
+	display: inline;
+	float: right;
+	padding: 30px;
+	margin-top: 20px;
+	font-family: "Oswald-Bold";
+	color: black;
+	text-decoration: underline;
+}
+
+.P1{
+	color: #b8cb21;
+	font-size: 20px;
+	font-family: "Oswald-Bold";
+	margin-left:5px ;
+}
+
+.B1{
+	
+	color:white;
+	background-color: #b8cb21;
+	text-align: center;
+	padding: 1em;
+	margin-left: 87%;
+	font-size: 10px;
+	cursor: pointer ; /*pointer*/
+	border: 1px solid white ;
+}
